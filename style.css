@@ -1,0 +1,62 @@
+/* Generel styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16pt;
+    background: #f7f9fb; /* Lys blå baggrund for et afslappet look */
+    color: #555; /* Mørk grå tekstfarve */
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Formularer */
+form {
+    background: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}
+
+/* Inputfelter */
+input[type="text"] {
+    width: 80%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #d1e0e0; /* Blødere kantfarve */
+    border-radius: 8px;
+    font-size: 16px;
+    background: #f0f7f7; /* Meget lys blå baggrund på inputfelterne */
+    color: #555; /* Mørk grå tekst */
+}
+
+/* Knapper */
+input[type="submit"] {
+    background: #60b39f; /* Blød grøn farve */
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background: #4a9e8a; /* En lidt mørkere grøn ved hover */
+}
+
+/* Søgeresultat */
+#searchStatus, #hentTing {
+    font-weight: bold;
+    color: #4a9e8a; /* Grøn farve for status */
+    margin-top: 10px;
+}
+
+/* Justering af formens input */
+input[type="submit"]:focus, input[type="text"]:focus {
+    outline: none;
+    border-color: #60b39f; /* Grønt fokus når brugeren er på inputfelterne */
+}
